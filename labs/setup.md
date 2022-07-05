@@ -1,4 +1,4 @@
-# Hands-on Labs Setup - Change
+# Hands-on Labs Setup
 In this lab you will fork the repo and enable the GitHub Actions
 > Duration: 5-10 minutes
 
