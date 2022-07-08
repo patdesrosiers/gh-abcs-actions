@@ -27,3 +27,12 @@ jobs:
           who-to-greet: 'Mona the Octocat from composite action'
       - run: echo random-number from composite action ${{ steps.hello-world.outputs.random-number }}
         shell: bash
+  my_own_action:
+     runs-on: ubuntu-latest
+     name: My first action
+     steps:
+       - id: my-first-action
+         uses: ./.github/actions/my-own-action@main
+         with:
+           who-to-greet: 'Patrick'
+           
