@@ -32,7 +32,7 @@ jobs:
      name: My first action
      steps:
        - id: my-first-action
-         uses: ./.github/actions/my-own-action@main
+         uses: ./.github/actions/my-own-action@v1.1
          with:
            who-to-greet: 'Patrick'
            
